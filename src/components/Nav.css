@@ -1,0 +1,17 @@
+.Nav {
+  display: flex;
+}
+
+.Nav > a {
+  display: block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+.Nav > a:first-of-type {
+  padding-left: 0;
+}
+
+.Nav > a:last-of-type {
+  padding-right: 0;
+}

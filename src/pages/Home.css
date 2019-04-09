@@ -1,0 +1,32 @@
+.HomePage {
+}
+
+.HomePage__services {
+  display: flex;
+  flex-direction: column;
+}
+
+.HomePage__services > * {
+  margin: 1rem 0;
+}
+
+@media (min-width: 720px) {
+  .HomePage__services {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .HomePage__services > * {
+    margin: 0 1rem;
+    /* width: 250px; */
+    max-width: 33%;
+  }
+
+  .HomePage__services > *:first-of-type {
+    margin-left: 0;
+  }
+
+  .HomePage__services > *:last-of-type {
+    margin-right: 0;
+  }
+}
